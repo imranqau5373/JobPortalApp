@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/jobs', function(req, res, next) {
+  res.render('jobs', { job: 'test job name' })
+});
 
 module.exports = router;

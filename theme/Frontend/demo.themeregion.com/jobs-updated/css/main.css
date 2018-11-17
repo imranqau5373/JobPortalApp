@@ -401,7 +401,7 @@ textarea {
 }
 
 .banner-form input {
-	min-width: 375px;
+	min-width: 200px;
 	padding:0 18px 0;
 	margin: 0;
 	font-family: 'MyriadPro-Regular', sans-serif;
@@ -2098,14 +2098,14 @@ input:-moz-placeholder {
 
 .banner-job .banner-form input {
 	margin-left: 0;
-	width: 60%;
+	width: 40%;
 }
 
 .banner-job .category-dropdown {
 	border-left: 1px solid #e6e6e6;
 	border-right: 0;
 	border-radius: 0;
-	width: 20%;
+	width: 40%;
 	padding: 0 35px;
 }
 
